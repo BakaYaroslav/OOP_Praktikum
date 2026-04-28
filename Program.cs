@@ -131,7 +131,7 @@ public class Program
 
             string rida = $"Tüüp: {nimi,-10} | Pindala: {pindala,8:F2} | Ümbermõõt: {ümbermõõt,8:F2}";
 
-            // KONTROLL: Kas see kujund on tegelikult Kolmnurk?
+            // KONTROLL: Kas see kujund on tegelikult Kolmnurk?   
             // Kasutame 'Pattern Matching' (kujund is Kolmnurk k)
             if (kujund is Kolmnurk k)
             {
